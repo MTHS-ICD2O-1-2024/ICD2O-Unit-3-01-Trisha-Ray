@@ -6,7 +6,7 @@
 
 "use strict"
 
-function calculateAreaOfTriangle () {
+function calculateAreaOfTrapizoid () {
   // input
   const baselength = parseInt(document.getElementById('base-length').value)
   const heightlength = parseInt(document.getElementById('height-length').value)
