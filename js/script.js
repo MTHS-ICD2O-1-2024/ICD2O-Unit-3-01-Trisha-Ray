@@ -8,12 +8,13 @@
 
 function calculateAreaOfTrapizoid () {
   // input
-  const baselength = parseInt(document.getElementById('base-length').value)
-  const heightlength = parseInt(document.getElementById('height-length').value)
+  const abase = parseInt(document.getElementById('a-base').value)
+  const bbase = parseInt(document.getElementById('b-base').value)
+  const height = parseInt(document.getElementById('height').value)
 
   // process
-  const areaOfTriangle = (baselength * heightlength) / 2
+  const areaOfTrapizoid = [(abase * bbase) / 2] * height
 
   // output
-  document.getElementById('area').innerHTML = 'Area of triangle is: ' + areaOfTriangle + ' cm²'
+  document.getElementById('area').innerHTML = 'Area is: ' + areaOfTrapizoid + ' mm²'
 }
