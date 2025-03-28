@@ -8,9 +8,9 @@
 
 function calculateAreaOfTrapizoid () {
   // input
-  const abase = parseInt(document.getElementById('a-base').value)
-  const bbase = parseInt(document.getElementById('b-base').value)
-  const height = parseInt(document.getElementById('height').value)
+  const abase = parseInt(document.getElementById('a-base').value);
+  const bbase = parseInt(document.getElementById('b-base').value);
+  const height = parseInt(document.getElementById('height').value);
 
   // process
   const areaOfTrapizoid = [(abase * bbase) / 2] * height
