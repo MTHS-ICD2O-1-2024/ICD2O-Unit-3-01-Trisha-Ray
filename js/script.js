@@ -13,7 +13,7 @@ function calculateAreaOfTrapizoid () {
   const height = parseInt(document.getElementById('height').value);
 
   // process
-  const areaOfTrapizoid = [(abase * bbase) / 2] * height
+  const areaOfTrapizoid = [(abase + bbase) / 2] * height
 
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + areaOfTrapizoid + ' mm²'
